@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="banner.png" alt="Nitish Banner" width="100%">
+</p>
+
 <!-- ====================== -->
 
 <!--      HERO SECTION      -->
