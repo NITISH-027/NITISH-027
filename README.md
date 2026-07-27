@@ -1,202 +1,110 @@
 <p align="center">
-  <img src="banner.png" alt="Nitish Banner" width="100%">
-</p>
-
-<!-- ====================== -->
-
-<!--      HERO SECTION      -->
-
-<!-- ====================== -->
-
-<h1 align="center">
-Hi 👋 I'm Nitish
-</h1>
-
-<p align="center">
-<b>AI Engineer • Full Stack Developer • Automation Builder</b>
+  <a href="#about-me">About</a> •
+  <a href="#featured-projects">Projects</a> •
+  <a href="#tech-stack">Tech Stack</a> •
+  <a href="#current-focus">Focus</a> •
+  <a href="#connect">Connect</a>
 </p>
 
 <p align="center">
-Building intelligent products that solve real-world problems through AI, automation, and thoughtful design.
+  <img src="github banner.png" width="100%" alt="GitHub Banner" />
 </p>
+
+<h1 align="center">Building AI systems, backend platforms, and intelligent automation.</h1>
 
 <p align="center">
-
-[Portfolio](https://nitishportfolio-two.vercel.app/) •
-[GitHub](https://github.com/NITISH-027) •
-[LinkedIn](https://www.linkedin.com/in/nitishprabagaran)
-
+Computer Science student building practical AI applications, backend systems, and automation tools with Python, FastAPI, and modern AI technologies.
 </p>
 
 ---
 
-# About Me
+## About Me
 
-I'm a Computer Science student passionate about building products that combine
+I'm a Computer Science student with a strong interest in AI engineering, backend development, and intelligent automation.
 
-* Artificial Intelligence
-* Backend Engineering
-* Automation
-* Beautiful User Experiences
-
-Instead of collecting certificates, I focus on building real projects that solve practical problems.
-
-Currently learning
-
-* Large Language Models
-* Retrieval Augmented Generation (RAG)
-* AI Agents
-* FastAPI
-* Next.js
-* System Design
+I enjoy designing software that solves real problems through AI, backend engineering, and automation. Every project is an opportunity to build reliable systems and strengthen my engineering skills.
 
 ---
 
-# Tech Stack
+## Featured Projects
 
-### Languages
+### [SamadhaanAI](https://github.com/NITISH-027/SAMADHAANAI)
+AI-powered MSME compliance platform automating payments, document analysis, legal reminders, and intelligent workflows.
 
-![Python](https://img.shields.io/badge/Python-black?style=for-the-badge\&logo=python)
-![Java](https://img.shields.io/badge/Java-black?style=for-the-badge\&logo=openjdk)
-![TypeScript](https://img.shields.io/badge/TypeScript-black?style=for-the-badge\&logo=typescript)
-![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge\&logo=javascript)
-
-### AI
-
-* Gemini API
-* OpenAI APIs
-* Hugging Face
-* LangChain
-* FAISS
-* Sentence Transformers
-
-### Backend
-
-* FastAPI
-* Node.js
-* REST APIs
-* Supabase
-
-### Frontend
-
-* Next.js
-* React
-* TailwindCSS
-* Shadcn UI
-
-### Tools
-
-Git • GitHub • VS Code • Postman • Figma • Vercel
+**Tech:** Python • FastAPI • PostgreSQL • AI • OCR  
+[View Project →](https://github.com/NITISH-027/SAMADHAANAI)
 
 ---
 
-# Featured Projects
+### [Ecosphere](https://github.com/NITISH-027/ecosphere-esg)
+Evidence-native ESG management platform for tracking environmental metrics, carbon accounting, and organizational sustainability.
 
-## AI Customer Support Chatbot
-
-An intelligent chatbot powered by RAG capable of answering questions from custom knowledge bases.
-
-**Tech**
-
-Python • FastAPI • FAISS • Gemini API • Sentence Transformers
-
-Repository
-
-https://github.com/NITISH-027/Chatbot
+**Tech:** Python • FastAPI • PostgreSQL  
+[View Project →](https://github.com/NITISH-027/ecosphere-esg)
 
 ---
 
-## SamadhaanAI
+### [MSME Growth OS](https://github.com/NITISH-027/MSME)
+AI-powered operating system centralizing business insights, workflow automation, and growth management for MSMEs.
 
-AI-powered compliance platform helping MSMEs manage delayed payments and automate legal compliance workflows.
-
-Highlights
-
-* AI Invoice OCR
-* Compliance Dashboard
-* Legal Assistant
-* Smart Interest Engine
+**Tech:** Python • FastAPI • AI  
+[View Project →](https://github.com/NITISH-027/MSME)
 
 ---
 
-## College Event Bridge
+### [TeleFlow](https://github.com/NITISH-027/telegram-monitor-bot)
+Telegram workflow automation platform streamlining notifications, bot interactions, and backend tasks for teams.
 
-A modern platform for managing and discovering college events.
-
-Built using
-
-Next.js
-Supabase
-TypeScript
+**Tech:** Python • FastAPI • Telegram API  
+[View Project →](https://github.com/NITISH-027/telegram-monitor-bot)
 
 ---
 
-## WhatsApp Status Automation
-
-Automation workflows for monitoring and posting updates efficiently.
-
----
-
-## Telegram Monitoring Bot
-
-Automates notifications and data tracking for teams.
-
----
-
-# Current Focus
-
-```text
-Building AI Products ██████████████░░ 85%
-
-Backend Engineering ████████████░░░░ 75%
-
-System Design ██████████░░░░░░░░░ 65%
-
-Open Source ████████░░░░░░░░░░░░ 50%
-```
-
----
-
-# GitHub Analytics
+## Tech Stack
 
 <p align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=NITISH-027&show_icons=true&hide_border=true&theme=transparent"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NITISH-027&layout=compact&hide_border=true&theme=transparent"/>
-
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
 </p>
+
+---
+
+## Current Focus
+
+- Building AI-powered backend applications
+- Exploring AI Agents and RAG
+- Contributing to open source
+- Strengthening DSA and system design
+- Preparing for GATE CSE 2028
+
+---
+
+## GitHub Overview
 
 <p align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=NITISH-027&theme=transparent&hide_border=true"/>
-
+  <img src="https://github-readme-stats.vercel.app/api?username=NITISH-027&show_icons=true&theme=transparent&hide_border=true&count_private=true" alt="Nitish's GitHub Stats" />
 </p>
 
 ---
 
-# 2026 Goals
-
-* Build 20+ production-quality AI projects
-* Contribute consistently to Open Source
-* Master AI Engineering
-* Deep dive into RAG & AI Agents
-* Strengthen DSA and System Design
-* Grow a portfolio that reflects real-world impact
-
----
-
-# Philosophy
-
-> "Great software isn't just about writing code.
-> It's about solving meaningful problems with elegance."
-
----
+## Connect
 
 <p align="center">
-
-⭐ Thanks for visiting my profile!
-
-If you like my work, consider following me and checking out my repositories.
-
+  <a href="https://nitishportfolio-two.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://www.linkedin.com/in/nitishprabagaran" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:nitishprabagaran07@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
 </p>
+
+---
+
+> *Building software that solves real-world problems.*
