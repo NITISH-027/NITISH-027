@@ -83,14 +83,6 @@ Telegram workflow automation platform streamlining notifications, bot interactio
 
 ---
 
-## GitHub Overview
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NITISH-027&show_icons=true&theme=transparent&hide_border=true&count_private=true" alt="Nitish's GitHub Stats" />
-</p>
-
----
-
 ## Connect
 
 <p align="center">
