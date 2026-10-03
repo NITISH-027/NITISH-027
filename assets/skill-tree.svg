@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="100%" height="280">
+  <defs>
+    <linearGradient id="tree-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="100%" stop-color="#04060c"/>
+    </linearGradient>
+    <linearGradient id="prog-core" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="prog-back" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="prog-ai" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="prog-ops" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <style>
+      .mono { font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .card-box { fill: #0b1329; stroke: #1e293b; stroke-width: 1.2; rx: 8; }
+      .branch-title { fill: #f8fafc; font-size: 13px; font-weight: 700; }
+      .node-text { fill: #94a3b8; font-size: 11px; }
+      .tier-label { fill: #64748b; font-size: 9px; font-weight: 600; letter-spacing: 0.5px; }
+    </style>
+  </defs>
+
+  <!-- Frame Background -->
+  <rect x="1" y="1" width="898" height="278" rx="12" fill="url(#tree-bg)" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Section Header Bar -->
+  <g transform="translate(24, 20)">
+    <text x="0" y="14" fill="#00F5A0" class="mono" font-size="11" font-weight="700">TECH TREE :: PROGRESSION MATRIX &amp; MASTERY PATHS</text>
+    <text x="852" y="14" text-anchor="end" fill="#64748b" class="mono" font-size="10">BRANCHES_ACTIVE: 4 // SPECIALIZATION: SYSTEMS + AI</text>
+  </g>
+  <line x1="24" y1="44" x2="876" y2="44" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- 4 Skill Branches (Columns) -->
+
+  <!-- Branch 1: CORE RUNTIME -->
+  <g transform="translate(24, 58)">
+    <rect x="0" y="0" width="200" height="202" class="card-box"/>
+    <rect x="0" y="0" width="200" height="3" fill="#38bdf8" rx="2"/>
+    <text x="14" y="24" class="tier-label mono">BRANCH 01 // FOUNDATION</text>
+    <text x="14" y="44" class="branch-title sans">Core Runtime</text>
+    
+    <!-- Mastery -->
+    <text x="14" y="66" fill="#38bdf8" class="mono" font-size="11" font-weight="700">92% MASTERY</text>
+    <rect x="14" y="74" width="172" height="6" rx="3" fill="#0f172a"/>
+    <rect x="14" y="74" width="158" height="6" rx="3" fill="url(#prog-core)"/>
+
+    <!-- Nodes -->
+    <g transform="translate(14, 98)">
+      <circle cx="4" cy="6" r="3" fill="#38bdf8"/>
+      <text x="14" y="10" class="node-text mono">Python 3.12 (Advanced)</text>
+
+      <circle cx="4" cy="30" r="3" fill="#38bdf8"/>
+      <text x="14" y="34" class="node-text mono">Linux CLI &amp; Bash</text>
+
+      <circle cx="4" cy="54" r="3" fill="#38bdf8"/>
+      <text x="14" y="58" class="node-text mono">Git / Version Control</text>
+
+      <circle cx="4" cy="78" r="3" fill="#38bdf8"/>
+      <text x="14" y="82" class="node-text mono">Data Structures &amp; Alg</text>
+    </g>
+  </g>
+
+  <!-- Branch 2: BACKEND & DATA -->
+  <g transform="translate(240, 58)">
+    <rect x="0" y="0" width="200" height="202" class="card-box"/>
+    <rect x="0" y="0" width="200" height="3" fill="#10B981" rx="2"/>
+    <text x="14" y="24" class="tier-label mono">BRANCH 02 // SERVICES</text>
+    <text x="14" y="44" class="branch-title sans">Backend &amp; Persistence</text>
+    
+    <!-- Mastery -->
+    <text x="14" y="66" fill="#10B981" class="mono" font-size="11" font-weight="700">88% MASTERY</text>
+    <rect x="14" y="74" width="172" height="6" rx="3" fill="#0f172a"/>
+    <rect x="14" y="74" width="151" height="6" rx="3" fill="url(#prog-back)"/>
+
+    <!-- Nodes -->
+    <g transform="translate(14, 98)">
+      <circle cx="4" cy="6" r="3" fill="#10B981"/>
+      <text x="14" y="10" class="node-text mono">FastAPI (Async I/O)</text>
+
+      <circle cx="4" cy="30" r="3" fill="#10B981"/>
+      <text x="14" y="34" class="node-text mono">PostgreSQL Database</text>
+
+      <circle cx="4" cy="54" r="3" fill="#10B981"/>
+      <text x="14" y="58" class="node-text mono">REST APIs &amp; Webhooks</text>
+
+      <circle cx="4" cy="78" r="3" fill="#10B981"/>
+      <text x="14" y="82" class="node-text mono">Database Schemas</text>
+    </g>
+  </g>
+
+  <!-- Branch 3: AUTONOMOUS AI & AUTOMATION -->
+  <g transform="translate(456, 58)">
+    <rect x="0" y="0" width="200" height="202" class="card-box"/>
+    <rect x="0" y="0" width="200" height="3" fill="#c084fc" rx="2"/>
+    <text x="14" y="24" class="tier-label mono">BRANCH 03 // INTELLIGENCE</text>
+    <text x="14" y="44" class="branch-title sans">Applied AI &amp; Bots</text>
+    
+    <!-- Mastery -->
+    <text x="14" y="66" fill="#c084fc" class="mono" font-size="11" font-weight="700">82% MASTERY</text>
+    <rect x="14" y="74" width="172" height="6" rx="3" fill="#0f172a"/>
+    <rect x="14" y="74" width="141" height="6" rx="3" fill="url(#prog-ai)"/>
+
+    <!-- Nodes -->
+    <g transform="translate(14, 98)">
+      <circle cx="4" cy="6" r="3" fill="#c084fc"/>
+      <text x="14" y="10" class="node-text mono">AI Agents &amp; Workflows</text>
+
+      <circle cx="4" cy="30" r="3" fill="#c084fc"/>
+      <text x="14" y="34" class="node-text mono">RAG &amp; Vector Retrieval</text>
+
+      <circle cx="4" cy="54" r="3" fill="#c084fc"/>
+      <text x="14" y="58" class="node-text mono">Document OCR Pipelines</text>
+
+      <circle cx="4" cy="78" r="3" fill="#c084fc"/>
+      <text x="14" y="82" class="node-text mono">Telegram Bot API</text>
+    </g>
+  </g>
+
+  <!-- Branch 4: ARCHITECTURE & FRONTIER -->
+  <g transform="translate(672, 58)">
+    <rect x="0" y="0" width="204" height="202" class="card-box"/>
+    <rect x="0" y="0" width="204" height="3" fill="#fbbf24" rx="2"/>
+    <text x="14" y="24" class="tier-label mono">BRANCH 04 // HORIZON</text>
+    <text x="14" y="44" class="branch-title sans">Infra &amp; Rigor</text>
+    
+    <!-- Mastery -->
+    <text x="14" y="66" fill="#fbbf24" class="mono" font-size="11" font-weight="700">70% [IN PROGRESS]</text>
+    <rect x="14" y="74" width="176" height="6" rx="3" fill="#0f172a"/>
+    <rect x="14" y="74" width="123" height="6" rx="3" fill="url(#prog-ops)"/>
+
+    <!-- Nodes -->
+    <g transform="translate(14, 98)">
+      <circle cx="4" cy="6" r="3" fill="#fbbf24"/>
+      <text x="14" y="10" class="node-text mono">Docker Containers</text>
+
+      <circle cx="4" cy="30" r="3" fill="#fbbf24"/>
+      <text x="14" y="34" class="node-text mono">System Design Patterns</text>
+
+      <circle cx="4" cy="54" r="3" fill="#fbbf24"/>
+      <text x="14" y="58" class="node-text mono">Open Source Collab</text>
+
+      <circle cx="4" cy="78" r="3" fill="#fbbf24"/>
+      <text x="14" y="82" class="node-text mono">GATE CSE 2028 Core</text>
+    </g>
+  </g>
+</svg>
