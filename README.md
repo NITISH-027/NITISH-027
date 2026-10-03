@@ -34,7 +34,7 @@
 ### 🛰️ Plumber Dossier &amp; Omnitrix Telemetry
 
 <div align="center">
-  <img src="assets/omnitrix-status-hud.svg" width="100%" alt="Plumber Dossier and Omnitrix Battery" />
+  <img src="assets/omnitrix-dossier.svg" width="100%" alt="Plumber Dossier and Omnitrix Battery" />
 </div>
 
 <br/>
