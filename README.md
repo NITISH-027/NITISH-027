@@ -1,23 +1,24 @@
 <div align="center">
 
-<!-- ========================================== -->
-<!-- 🚀 MISSION CONTROL HUD // SYSTEM HEADER -->
-<!-- ========================================== -->
+<!-- ============================================================ -->
+<!-- ⌛ OMNITRIX OS // AZMUTH LEVEL 20 GALVAN PRIME INTERFACE    -->
+<!-- ============================================================ -->
+
 <a href="https://nitishportfolio-two.vercel.app/" target="_blank">
-  <img src="assets/hud-header.svg" width="100%" alt="NITISH-OS Mission Control Terminal" />
+  <img src="assets/omnitrix-header.svg" width="100%" alt="Omnitrix OS Terminal Header" />
 </a>
 
 <br/><br/>
 
-<!-- TOP QUICK RELAY NAVIGATION -->
+<!-- TOP OMNITRIX DIAL NAVIGATION -->
 <p align="center">
-  <code><a href="#-operator-dossier--telemetry">DOSSIER</a></code> •
-  <code><a href="#-active-deployments--production-modules">DEPLOYMENTS</a></code> •
-  <code><a href="#-skill-tree--progression-matrix">SKILL TREE</a></code> •
-  <code><a href="#-active-campaigns--quest-log">QUEST LOG</a></code> •
-  <code><a href="#-milestones--unlocked-achievements">ACHIEVEMENTS</a></code> •
-  <code><a href="#-telemetry--activity-stream">TELEMETRY</a></code> •
-  <code><a href="#-comms-relay--contact">COMMS</a></code>
+  <code><a href="#-plumber-dossier--omnitrix-status">PLUMBER DOSSIER</a></code> •
+  <code><a href="#-active-alien-deployments--hero-time">HERO TIME DEPLOYMENTS</a></code> •
+  <code><a href="#-codon-stream--alien-dna-playlist">CODON STREAM</a></code> •
+  <code><a href="#-active-campaigns--galvan-prime-missions">GALVAN MISSIONS</a></code> •
+  <code><a href="#-master-control-milestones--trophies">MASTER CONTROL</a></code> •
+  <code><a href="#-omnitrix-telemetry--activity-stream">CORE TELEMETRY</a></code> •
+  <code><a href="#-plumbers-badge-comms-relay">HOLO-COMMS</a></code>
 </p>
 
 ---
@@ -26,117 +27,121 @@
 
 <br/>
 
-<!-- ========================================== -->
-<!-- 👤 OPERATOR DOSSIER & HUD TELEMETRY -->
-<!-- ========================================== -->
+<!-- ============================================================ -->
+<!-- 🛰️ PLUMBER DOSSIER & OMNITRIX BATTERY STATUS               -->
+<!-- ============================================================ -->
 
-### 🛰️ Operator Dossier &amp; Telemetry
+### 🛰️ Plumber Dossier &amp; Omnitrix Telemetry
 
 <div align="center">
-  <img src="assets/player-hud.svg" width="100%" alt="Operator HUD &amp; Player Profile" />
+  <img src="assets/omnitrix-status-hud.svg" width="100%" alt="Plumber Dossier and Omnitrix Battery" />
 </div>
 
 <br/>
 
 ```ini
-[SYSTEM_PROFILE]
-OPERATOR     = Nitish Prabagaran
-CLASS        = AI Systems Engineer & Backend Architect
-SPECIALTY    = Async Python (FastAPI) • Autonomous Agents • Document Intelligence • Cloud Backend
-ORIGIN       = Tamil Nadu, India [UTC +05:30]
-CURRENT_OP   = MSME Operating Systems & Enterprise AI Orchestration
-PRIMARY_BUFF = +45% Async Concurrency // +38% LLM Context Efficiency // +50% Reliability
+[OMNITRIX_CORE_SPEC]
+OPERATOR      = Nitish Prabagaran [PLUMBER-027]
+DEVICE_STATE  = MASTER CONTROL ENGAGED // CODON STREAM STABILIZED
+PRIMARY_AFFIN = Python 3.12 • FastAPI Core • Autonomous AI Agents • PostgreSQL Hardening
+BASE_SECTOR   = Tamil Nadu, Earth [Sector 2814] // Open for Interstellar Remote Collab
+GALVAN_BUFFS  = +45% Async Concurrency // +38% Neural Context Efficiency // +50% System Durability
+CURRENT_BATTLE= Transforming Indian MSME compliance & enterprise backends via AI automation
 ```
 
 ---
 
-<!-- ========================================== -->
-<!-- ⚔️ ACTIVE DEPLOYMENTS // PRODUCTION MODULES -->
-<!-- ========================================== -->
+<!-- ============================================================ -->
+<!-- ⚡ ACTIVE ALIEN DEPLOYMENTS // "IT'S HERO TIME"              -->
+<!-- ============================================================ -->
 
-### 🎛️ Active Deployments &amp; Production Modules
+### ⚡ Active Alien Deployments // "It's Hero Time"
 
-Here are the primary enterprise-grade systems designed and shipped from this command station:
+The Omnitrix dial is locked into four production-grade alien battle protocols:
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/NITISH-027/SAMADHAANAI">🟢 SAMADHAAN AI</a> <code>v1.4</code></h4>
-      <p><b>AI-Powered MSME Compliance &amp; Recovery Platform</b></p>
-      <p>Automated payment recovery, intelligent legal notification dispatch, and document analysis engine solving MSME delayed payments under the MSMED Act.</p>
+      <h4><a href="https://github.com/NITISH-027/SAMADHAANAI">🦀 PROTOCOL [BRAINSTORM] &bull; SAMADHAAN AI</a></h4>
+      <p><b>Galvanic Compliance &amp; Legal Debt Recovery Neural Core</b></p>
+      <p>Automated payment recovery, intelligent legal notice generation, and OCR document verification engineered for MSMEs fighting delayed payments under the MSMED Act.</p>
       <ul>
-        <li><b>Stack:</b> <code>Python</code> • <code>FastAPI</code> • <code>PostgreSQL</code> • <code>OCR / Vision AI</code></li>
-        <li><b>Status:</b> <code>● PRODUCTION READY</code></li>
+        <li><b>Alien Form:</b> <code>Brainstorm (Cerebrocrustacean)</code></li>
+        <li><b>Tech Weapons:</b> <code>Python</code> • <code>FastAPI</code> • <code>PostgreSQL</code> • <code>Vision AI / OCR</code></li>
+        <li><b>Battle State:</b> <code>● PRODUCTION READY // 94% NEURAL ACCURACY</code></li>
       </ul>
       <details>
-        <summary><b>🔍 Inspect Architecture &amp; System Telemetry</b></summary>
+        <summary><b>🔍 Holographic Decryption: Inspect Architecture</b></summary>
         <br/>
-        <pre><code>[SYS_INSPECT] SAMADHAANAI
-├─ Ingestion: Multipart PDF invoice upload &amp; verification
-├─ Processing: OCR extraction + LLM entity resolution
-├─ Persistence: PostgreSQL relation schema with audit logs
-├─ Dispatch: Automated legal notice generator &amp; tracker
-└─ Concurrency: Async background task queue for parsing</code></pre>
-        <p align="right"><a href="https://github.com/NITISH-027/SAMADHAANAI"><b>Access Repository →</b></a></p>
+        <pre><code>[CODON_INSPECT] SAMADHAAN-AI
+├─ Neural Ingestion: Multi-page invoice PDF stream &amp; validation
+├─ Neuro-Analysis: Document OCR + LLM entity extraction &amp; audit
+├─ Petrosapien Vault: Relational ledger with dispute timeline tracking
+├─ Automated Defense: Legal demand notice generator &amp; dispatch bot
+└─ Kineceleran Loop: Non-blocking async queue for bulk invoice processing</code></pre>
+        <p align="right"><a href="https://github.com/NITISH-027/SAMADHAANAI"><b>Access Codon Archive &rarr;</b></a></p>
       </details>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/NITISH-027/ecosphere-esg">🟢 ECOSPHERE ESG</a> <code>v1.1</code></h4>
-      <p><b>Evidence-Native ESG Accounting Platform</b></p>
-      <p>Automated greenhouse gas (GHG) tracking, ESG evidence verification, and organizational sustainability metric calculation engine with auditable trails.</p>
+      <h4><a href="https://github.com/NITISH-027/ecosphere-esg">💎 PROTOCOL [DIAMONDHEAD] &bull; ECOSPHERE ESG</a></h4>
+      <p><b>Evidence-Native Indestructible Carbon &amp; ESG Ledger</b></p>
+      <p>Auditable greenhouse gas (GHG) tracking, carbon footprint accounting, and organizational sustainability metric calculation engine with cryptographic evidence verification.</p>
       <ul>
-        <li><b>Stack:</b> <code>Python</code> • <code>FastAPI</code> • <code>PostgreSQL</code> • <code>Data Pipelines</code></li>
-        <li><b>Status:</b> <code>● LIVE ENGINE</code></li>
+        <li><b>Alien Form:</b> <code>Diamondhead (Petrosapien)</code></li>
+        <li><b>Tech Weapons:</b> <code>Python</code> • <code>FastAPI</code> • <code>PostgreSQL</code> • <code>Data Pipelines</code></li>
+        <li><b>Battle State:</b> <code>● LIVE ENGINE // UNBREAKABLE INTEGRITY</code></li>
       </ul>
       <details>
-        <summary><b>🔍 Inspect Architecture &amp; System Telemetry</b></summary>
+        <summary><b>🔍 Holographic Decryption: Inspect Architecture</b></summary>
         <br/>
-        <pre><code>[SYS_INSPECT] ECOSPHERE-ESG
-├─ Data Engine: Scope 1, 2, 3 carbon accounting pipelines
-├─ Verification: Tamper-evident ledger &amp; source document links
-├─ Aggregation: Dynamic KPI dashboards &amp; compliance scores
-└─ Performance: Sub-50ms query latency on indexed historical logs</code></pre>
-        <p align="right"><a href="https://github.com/NITISH-027/ecosphere-esg"><b>Access Repository →</b></a></p>
+        <pre><code>[CODON_INSPECT] ECOSPHERE-ESG
+├─ Crystal Storage: Indexed PostgreSQL store with immutable audit trail
+├─ Accounting Core: Automated Scope 1, 2, 3 carbon emission pipelines
+├─ Evidence Lock: Tamper-evident ledger referencing raw sensor logs
+└─ Query Speed: Sub-45ms index scans on multi-year telemetry metrics</code></pre>
+        <p align="right"><a href="https://github.com/NITISH-027/ecosphere-esg"><b>Access Codon Archive &rarr;</b></a></p>
       </details>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/NITISH-027/MSME">⚡ MSME GROWTH OS</a> <code>v1.0</code></h4>
-      <p><b>Intelligent Enterprise Operating System</b></p>
-      <p>Centralized business intelligence, inventory telemetry, invoice workflow automation, and growth health diagnostics tailored for small-to-mid businesses.</p>
+      <h4><a href="https://github.com/NITISH-027/MSME">🔄 PROTOCOL [UPGRADE] &bull; MSME GROWTH OS</a></h4>
+      <p><b>Mechamorph Business Infrastructure &amp; Automation Core</b></p>
+      <p>Merges with small-to-mid business systems to automate inventory pipelines, forecast cash flow runways, and centralize operational telemetry on an intelligent dashboard.</p>
       <ul>
-        <li><b>Stack:</b> <code>Python</code> • <code>FastAPI</code> • <code>AI Analytics</code> • <code>Workflow Queues</code></li>
-        <li><b>Status:</b> <code>● ACTIVE ROLLOUT</code></li>
+        <li><b>Alien Form:</b> <code>Upgrade (Galvanic Mechamorph)</code></li>
+        <li><b>Tech Weapons:</b> <code>Python</code> • <code>FastAPI</code> • <code>Predictive AI</code> • <code>Async Workflows</code></li>
+        <li><b>Battle State:</b> <code>● CODE MERGED // ACTIVE PILOT ROLLOUT</code></li>
       </ul>
       <details>
-        <summary><b>🔍 Inspect Architecture &amp; System Telemetry</b></summary>
+        <summary><b>🔍 Holographic Decryption: Inspect Architecture</b></summary>
         <br/>
-        <pre><code>[SYS_INSPECT] MSME-GROWTH-OS
-├─ Analytics: Real-time cash flow &amp; working capital runway
-├─ Intelligence: Autonomous forecasting via predictive models
-├─ Integration: Modular webhook connectors for local accounting
-└─ Security: Role-based access control (RBAC) &amp; encrypted tokens</code></pre>
-        <p align="right"><a href="https://github.com/NITISH-027/MSME"><b>Access Repository →</b></a></p>
+        <pre><code>[CODON_INSPECT] MSME-GROWTH-OS
+├─ Technopathy Engine: Webhook bridges into accounting spreadsheets
+├─ Predictive Core: Machine learning cash flow &amp; invoice forecast models
+├─ Automation Circuit: Auto-reconciliation of purchase orders &amp; bank feeds
+└─ Plumber Security: JWT role-based access control with token rotation</code></pre>
+        <p align="right"><a href="https://github.com/NITISH-027/MSME"><b>Access Codon Archive &rarr;</b></a></p>
       </details>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/NITISH-027/telegram-monitor-bot">🟢 TELEFLOW BOT</a> <code>v2.0</code></h4>
-      <p><b>Automated Telegram Operations &amp; Alert Sentinel</b></p>
-      <p>High-throughput automated notification pipeline, incident alerts, and command dispatcher bridging backend server telemetry to Telegram channels.</p>
+      <h4><a href="https://github.com/NITISH-027/telegram-monitor-bot">⚡ PROTOCOL [XLR8] &bull; TELEFLOW BOT</a></h4>
+      <p><b>Hyper-Velocity Telegram Operations &amp; Incident Dispatcher</b></p>
+      <p>High-throughput automated notification pipeline, server health sentinel, and incident dispatcher bridging backend server telemetry to Telegram channels at sub-millisecond speeds.</p>
       <ul>
-        <li><b>Stack:</b> <code>Python</code> • <code>FastAPI</code> • <code>Telegram Bot API</code> • <code>Async Webhooks</code></li>
-        <li><b>Status:</b> <code>● RUNNING SENTINEL</code></li>
+        <li><b>Alien Form:</b> <code>XLR8 (Kineceleran)</code></li>
+        <li><b>Tech Weapons:</b> <code>Python</code> • <code>FastAPI</code> • <code>Telegram Bot API</code> • <code>Async Webhooks</code></li>
+        <li><b>Battle State:</b> <code>● RUNNING SENTINEL // ZERO DOWNTIME</code></li>
       </ul>
       <details>
-        <summary><b>🔍 Inspect Architecture &amp; System Telemetry</b></summary>
+        <summary><b>🔍 Holographic Decryption: Inspect Architecture</b></summary>
         <br/>
-        <pre><code>[SYS_INSPECT] TELEFLOW-BOT
-├─ Gateway: Webhook-driven async request dispatcher
-├─ Automation: Scheduled cron alerts &amp; server health pings
-├─ Filtering: Priority threshold triage (Critical / Warn / Info)
-└─ Throughput: Non-blocking I/O supporting broadcast channels</code></pre>
-        <p align="right"><a href="https://github.com/NITISH-027/telegram-monitor-bot"><b>Access Repository →</b></a></p>
+        <pre><code>[CODON_INSPECT] TELEFLOW-BOT
+├─ Hyper-Speed Webhook: Async FastAPI gateway handling burst webhooks
+├─ Sentinel Radar: Scheduled cron health pings across microservices
+├─ Incident Triage: Priority threshold classification (Critical / Warn / Log)
+└─ Non-Blocking I/O: Zero event loop blocking on high-frequency broadcast</code></pre>
+        <p align="right"><a href="https://github.com/NITISH-027/telegram-monitor-bot"><b>Access Codon Archive &rarr;</b></a></p>
       </details>
     </td>
   </tr>
@@ -144,123 +149,127 @@ Here are the primary enterprise-grade systems designed and shipped from this com
 
 ---
 
-<!-- ========================================== -->
-<!-- 🌲 SKILL TREE // PROGRESSION MATRIX -->
-<!-- ========================================== -->
+<!-- ============================================================ -->
+<!-- 🧬 CODON STREAM // ALIEN DNA PLAYLIST                        -->
+<!-- ============================================================ -->
 
-### 🌲 Skill Tree &amp; Progression Matrix
+### 🧬 Codon Stream &amp; Alien DNA Playlist
 
 <div align="center">
-  <img src="assets/skill-tree.svg" width="100%" alt="Developer Skill Tree Matrix" />
+  <img src="assets/omnitrix-dna-matrix.svg" width="100%" alt="Omnitrix Alien DNA Matrix" />
 </div>
 
 <br/>
 
 <details>
-  <summary><b>💻 Click to View Full Terminal Inventory &amp; Technology Stack</b></summary>
+  <summary><b>💾 Expand Azmuth's Full Galvan Engineering Arsenal &amp; Weaponry</b></summary>
   <br/>
 
-| Tier | Category | Weaponry &amp; Toolchain | Mastery Level |
+| Alien DNA Sample | Species Origin | Primary Technology Armory | Power Rating |
 | :--- | :--- | :--- | :---: |
-| **01** | **Core Languages** | Python 3.12, C/C++, SQL, Bash scripting | `92% [EXPERT]` |
-| **02** | **Backend &amp; Services** | FastAPI, RESTful Architecture, Webhooks, Starlette, AsyncIO | `88% [ADVANCED]` |
-| **03** | **Databases &amp; Storage** | PostgreSQL, Relational Schema Design, Vector DBs (Chroma/FAISS) | `84% [ADVANCED]` |
-| **04** | **AI Engineering** | LangChain, RAG Pipelines, Autonomous Agents, Document OCR, Prompt Craft | `82% [PRACTITIONER]` |
-| **05** | **DevOps &amp; Infra** | Docker, Git/GitHub Actions, Linux/Unix CLI, Postman, Vercel | `78% [COMPETENT]` |
-| **06** | **Theory &amp; Rigor** | Data Structures &amp; Algorithms, OS Internals, DBMS, GATE CSE | `72% [GRINDING]` |
+| **🧠 Grey Matter** | Galvan Prime | Data Structures &amp; Algorithms, System Design, Discrete Math, GATE CSE 2028 | `92% [SUPREME]` |
+| **🔄 Upgrade** | Galvan B | Python 3.12, FastAPI, Webhook Workflows, Asynchronous Microservices | `94% [MASTER]` |
+| **🦀 Brainstorm** | Encephalonus IV | Autonomous AI Agents, RAG Pipelines, Vector Databases, Document OCR | `88% [ADVANCED]` |
+| **⚡ XLR8** | Kinet | AsyncIO Non-blocking Loops, Telegram API, Low-latency Endpoints | `90% [HYPER-SPEED]` |
+| **💎 Diamondhead** | Petropia | PostgreSQL, Relational Schema Architecture, ACID Hardening, Docker | `86% [ARMORED]` |
+| **🔊 Echo Echo** | Sonorosia | Docker Containers, Git/GitHub Actions, Linux CLI, Production Staging | `82% [SCALABLE]` |
 
 </details>
 
 ---
 
-<!-- ========================================== -->
-<!-- 🎯 ACTIVE CAMPAIGNS // QUEST LOG -->
-<!-- ========================================== -->
+<!-- ============================================================ -->
+<!-- 🎯 ACTIVE CAMPAIGNS // GALVAN PRIME MISSIONS                -->
+<!-- ============================================================ -->
 
-### 🎯 Active Campaigns &amp; Quest Log
+### 🎯 Active Campaigns // Galvan Prime Missions
 
 ```diff
-+ [MAIN QUEST]  BUILD SCALABLE MULTI-AGENT WORKFLOWS WITH RAG
-  Progress:     ████████████████░░░░  [82%]
-  Objective:    Deploy autonomous agents capable of document synthesis & multi-turn reasoning.
++ [PRIORITY 01]  GALVAN SUPREME INTELLECT: GATE CSE 2028
+  Species:       Galvan (Grey Matter)
+  Progress:      ▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░  [60%]
+  Directive:     Master Core CS: Algorithms, Operating Systems, Compilers & Computer Architecture.
 
-+ [MAIN QUEST]  GATE CSE 2028 SYSTEMATIC PREPARATION
-  Progress:     ████████████░░░░░░░░  [60%]
-  Objective:    Master Algorithms, Computer Architecture, Discrete Math & Theory of Computation.
++ [PRIORITY 02]  AUTONOMOUS MULTI-AGENT SWARMS WITH RAG
+  Species:       Cerebrocrustacean (Brainstorm)
+  Progress:      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░  [82%]
+  Directive:     Deploy autonomous reasoning agents capable of multi-turn tool-calling & synthesis.
 
-+ [SIDE QUEST]  CONTINUOUS OPEN SOURCE EXPANSION
-  Progress:     ██████████████████░░  [90%]
-  Objective:    Refactor backend repositories with test suites, CI checks, and clean documentation.
++ [PRIORITY 03]  ENTERPRISE MECHAMORPH OPEN SOURCE EXPANSION
+  Species:       Galvanic Mechamorph (Upgrade)
+  Progress:      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░  [90%]
+  Directive:     Harden backend repositories with CI checks, pytest suites, and clean documentation.
 
-+ [SIDE QUEST]  ADVANCED DISTRIBUTED BACKENDS & SYSTEM DESIGN
-  Progress:     ██████████████░░░░░░  [70%]
-  Objective:    Study caching layers (Redis), message queues (RabbitMQ/Kafka), and microservices.
++ [PRIORITY 04]  HIGH-CONCURRENCY DISTRIBUTED SYSTEMS
+  Species:       Kineceleran (XLR8) + Petrosapien (Diamondhead)
+  Progress:      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░  [70%]
+  Directive:     Integrate message brokers (Kafka/RabbitMQ) and distributed caching (Redis).
 ```
 
 ---
 
-<!-- ========================================== -->
-<!-- 🏆 MILESTONES // UNLOCKED ACHIEVEMENTS -->
-<!-- ========================================== -->
+<!-- ============================================================ -->
+<!-- 🏆 MASTER CONTROL MILESTONES // UNLOCKED ACHIEVEMENTS        -->
+<!-- ============================================================ -->
 
-### 🏆 Milestones &amp; Unlocked Achievements
+### 🏆 Master Control Milestones &amp; Alien Trophies
 
 <table>
   <tr align="center">
     <td width="20%">
-      <img src="https://img.shields.io/badge/🏆_FIRST_MSME_OS-UNLOCKED-00F5A0?style=for-the-badge&labelColor=0a0f1d" alt="First MSME OS" />
-      <br/><b>Enterprise Builder</b>
-      <br/><sub>Shipped automated compliance &amp; recovery platform</sub>
+      <img src="https://img.shields.io/badge/⌛_MASTER_CONTROL-UNLOCKED-00FF66?style=for-the-badge&labelColor=050d09" alt="Master Control" />
+      <br/><b>Omnitrix Master</b>
+      <br/><sub>Unlocked multi-alien engineering transformations</sub>
     </td>
     <td width="20%">
-      <img src="https://img.shields.io/badge/⚡_ASYNC_TITAN-UNLOCKED-00F5A0?style=for-the-badge&labelColor=0a0f1d" alt="Async Titan" />
-      <br/><b>High-Concurrency</b>
-      <br/><sub>FastAPI backend engines with async pipelines</sub>
+      <img src="https://img.shields.io/badge/🔄_MECHAMORPH_MERGE-UNLOCKED-00FF66?style=for-the-badge&labelColor=050d09" alt="Mechamorph Merge" />
+      <br/><b>Upgrade Transfusion</b>
+      <br/><sub>Built &amp; deployed live MSME enterprise platform</sub>
     </td>
     <td width="20%">
-      <img src="https://img.shields.io/badge/🤖_AI_ORCHESTRATOR-UNLOCKED-00F5A0?style=for-the-badge&labelColor=0a0f1d" alt="AI Orchestrator" />
-      <br/><b>Applied Intelligence</b>
-      <br/><sub>RAG, OCR &amp; Autonomous Agent integrations</sub>
+      <img src="https://img.shields.io/badge/🧠_AZMUTH_INTELLECT-UNLOCKED-00FF66?style=for-the-badge&labelColor=050d09" alt="Azmuth Intellect" />
+      <br/><b>Neural Orchestrator</b>
+      <br/><sub>Shipped AI agent &amp; OCR document compliance engines</sub>
     </td>
     <td width="20%">
-      <img src="https://img.shields.io/badge/🛡️_EVIDENCE_NATIVE-UNLOCKED-00F5A0?style=for-the-badge&labelColor=0a0f1d" alt="Evidence Native" />
-      <br/><b>ESG Pioneer</b>
-      <br/><sub>Auditable greenhouse gas tracking system</sub>
+      <img src="https://img.shields.io/badge/💎_PETRO_ARMOR-UNLOCKED-00FF66?style=for-the-badge&labelColor=050d09" alt="Petro Armor" />
+      <br/><b>Diamondhead Ledger</b>
+      <br/><sub>Engineered evidence-native ESG accounting vault</sub>
     </td>
     <td width="20%">
-      <img src="https://img.shields.io/badge/🎯_GATE_SEEKER-IN_PROGRESS-F59E0B?style=for-the-badge&labelColor=0a0f1d" alt="GATE 2028 Seeker" />
-      <br/><b>CS Theoretical Rigor</b>
-      <br/><sub>Deep grind on core computer science foundations</sub>
+      <img src="https://img.shields.io/badge/🎯_GALVAN_PRIME-IN_PROGRESS-39FF14?style=for-the-badge&labelColor=050d09" alt="Galvan Prime" />
+      <br/><b>GATE CSE '28 Seeker</b>
+      <br/><sub>Deep grinding on computer science fundamentals</sub>
     </td>
   </tr>
 </table>
 
 ---
 
-<!-- ========================================== -->
-<!-- 📊 TELEMETRY // ACTIVITY STREAM -->
-<!-- ========================================== -->
+<!-- ============================================================ -->
+<!-- 📊 OMNITRIX TELEMETRY // CORE ACTIVITY STREAM               -->
+<!-- ============================================================ -->
 
-### 📊 Telemetry &amp; Activity Stream
+### 📊 Omnitrix Telemetry &amp; Core Activity Stream
 
 <div align="center">
   <table border="0">
     <tr align="center">
       <td>
         <a href="https://github.com/NITISH-027">
-          <img src="https://github-readme-stats.vercel.app/api?username=NITISH-027&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0f1d&title_color=00F5A0&icon_color=00F5A0&text_color=94a3b8" alt="Nitish's GitHub Stats" />
+          <img src="https://github-readme-stats.vercel.app/api?username=NITISH-027&show_icons=true&hide_border=true&bg_color=040906&title_color=39FF14&icon_color=00FF66&text_color=88c499" alt="Omnitrix Core Stats" />
         </a>
       </td>
       <td>
         <a href="https://github.com/NITISH-027">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NITISH-027&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0f1d&title_color=00F5A0&text_color=94a3b8" alt="Top Languages" />
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NITISH-027&layout=compact&hide_border=true&bg_color=040906&title_color=39FF14&text_color=88c499" alt="Codon Stream Languages" />
         </a>
       </td>
     </tr>
     <tr align="center">
       <td colspan="2">
         <a href="https://github.com/NITISH-027">
-          <img src="https://github-readme-streak-stats.herokuapp.com/?user=NITISH-027&theme=tokyonight&hide_border=true&background=0a0f1d&ring=00F5A0&fire=00F5A0&currStreakLabel=00F5A0" alt="GitHub Streak" />
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=NITISH-027&hide_border=true&background=040906&ring=00FF66&fire=39FF14&currStreakLabel=00FF66" alt="Omnitrix Battle Streak" />
         </a>
       </td>
     </tr>
@@ -269,37 +278,37 @@ Here are the primary enterprise-grade systems designed and shipped from this com
 
 ---
 
-<!-- ========================================== -->
-<!-- 📡 COMMS RELAY // ENCRYPTED CHANNELS -->
-<!-- ========================================== -->
+<!-- ============================================================ -->
+<!-- 📡 PLUMBERS BADGE // INTERSTELLAR HOLO-COMMS                -->
+<!-- ============================================================ -->
 
-### 📡 Comms Relay &amp; Transmission Channels
+### 📡 Plumber's Badge Interstellar Holo-Comms
 
-Initiate contact or dispatch collaboration requests across secured frequencies:
+Transmit collaboration requests or mission directives through secured Galvanic frequencies:
 
 <div align="center">
 
 <a href="https://nitishportfolio-two.vercel.app/" target="_blank">
-  <img src="https://img.shields.io/badge/SECURE_PORTFOLIO-00F5A0?style=for-the-badge&logo=vercel&logoColor=black&labelColor=0a0f1d" alt="Portfolio" />
+  <img src="https://img.shields.io/badge/HOLO_PORTFOLIO-00FF66?style=for-the-badge&logo=vercel&logoColor=black&labelColor=050d09" alt="Portfolio" />
 </a>
 &nbsp;
 <a href="https://www.linkedin.com/in/nitishprabagaran" target="_blank">
-  <img src="https://img.shields.io/badge/LINKEDIN_RELAY-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0f1d" alt="LinkedIn" />
+  <img src="https://img.shields.io/badge/PLUMBER_LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=050d09" alt="LinkedIn" />
 </a>
 &nbsp;
 <a href="mailto:nitishprabagaran07@gmail.com">
-  <img src="https://img.shields.io/badge/DIRECT_DISPATCH-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0f1d" alt="Email" />
+  <img src="https://img.shields.io/badge/DIRECT_DISPATCH-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=050d09" alt="Email" />
 </a>
 
 <br/><br/>
 
 ```bash
-# Ping the operator directly
-curl -X POST https://nitishportfolio-two.vercel.app/api/contact \
-  -H "Authorization: Bearer OPEN_TO_COLLABORATION" \
-  -d '{"status": "Ready to build ambitious systems"}'
+# Hail Plumber Station NITISH-027 via terminal
+curl -X POST https://nitishportfolio-two.vercel.app/api/transform \
+  -H "Authorization: Bearer AZMUTH_LEVEL_20" \
+  -d '{"alien_protocol": "UPGRADE", "directive": "BUILD_SCALABLE_SYSTEMS"}'
 ```
 
-<sub>NITISH-OS // KERNEL v4.2 // COMPILED FOR REPOSITORIES WORLDWIDE</sub>
+<sub>OMNITRIX OS // UNIT 027 // POWERED BY AZMUTH GALVAN PRIME TECH // "IT'S HERO TIME"</sub>
 
 </div>

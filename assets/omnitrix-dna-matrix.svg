@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 290" width="100%" height="290">
+  <defs>
+    <radialGradient id="dna-card-bg" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#0a1a10"/>
+      <stop offset="100%" stop-color="#030805"/>
+    </radialGradient>
+
+    <linearGradient id="alien-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00aa44"/>
+      <stop offset="70%" stop-color="#00FF66"/>
+      <stop offset="100%" stop-color="#39FF14"/>
+    </linearGradient>
+
+    <filter id="green-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      .mono { font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .card-border { stroke: #194025; stroke-width: 1.2; rx: 8; fill: url(#dna-card-bg); }
+      .card-border:hover { stroke: #00FF66; }
+      .alien-header { fill: #ffffff; font-size: 14px; font-weight: 800; letter-spacing: 0.5px; }
+      .alien-sub { fill: #39FF14; font-size: 9px; font-weight: 700; letter-spacing: 1px; }
+      .alien-desc { fill: #88c499; font-size: 10px; }
+      .alien-tech { fill: #e2f5e8; font-size: 11px; font-weight: 600; }
+    </style>
+  </defs>
+
+  <!-- Frame Background -->
+  <rect x="1" y="1" width="898" height="288" rx="12" fill="#040906" stroke="#122c1b" stroke-width="1.5"/>
+
+  <!-- Top Codon Header Bar -->
+  <g transform="translate(24, 20)">
+    <!-- Small Omnitrix Badge -->
+    <circle cx="10" cy="8" r="8" fill="#00FF66" filter="url(#green-glow)"/>
+    <polygon points="6,4 14,4 10,8" fill="#040906"/>
+    <polygon points="6,12 14,12 10,8" fill="#040906"/>
+
+    <text x="26" y="12" fill="#00FF66" class="mono" font-size="12" font-weight="800" letter-spacing="1">
+      CODON STREAM // ACTIVE ALIEN DNA PLAYLIST &amp; POWER SIGNATURES
+    </text>
+    <text x="852" y="12" text-anchor="end" fill="#528060" class="mono" font-size="10">
+      SYSTEM PROTOCOL: AZMUTH-LEVEL OMNITRIX MATRIX
+    </text>
+  </g>
+  <line x1="24" y1="42" x2="876" y2="42" stroke="#14331e" stroke-width="1"/>
+
+  <!-- 5 ALIEN PROFILE COLUMNS (HOLOGRAPHIC DNA CARDS) -->
+
+  <!-- CARD 1: BRAINSTORM -->
+  <g transform="translate(24, 54)">
+    <rect x="0" y="0" width="160" height="216" class="card-border"/>
+    <rect x="0" y="0" width="160" height="3" fill="#39FF14" rx="2"/>
+
+    <!-- Emblem & Name -->
+    <text x="12" y="24" class="alien-sub mono">DNA SAMPLE #01</text>
+    <text x="12" y="44" class="alien-header sans">BRAINSTORM</text>
+    <text x="12" y="58" class="alien-desc mono">Cerebrocrustacean</text>
+
+    <!-- Power Bar -->
+    <g transform="translate(12, 70)">
+      <text x="0" y="8" fill="#39FF14" class="mono" font-size="9" font-weight="700">INTELLIGENCE: 94%</text>
+      <rect x="0" y="14" width="136" height="5" rx="2.5" fill="#0b1a0f"/>
+      <rect x="0" y="14" width="128" height="5" rx="2.5" fill="url(#alien-bar)"/>
+    </g>
+
+    <!-- Tech Mapping -->
+    <g transform="translate(12, 110)">
+      <text x="0" y="0" fill="#528060" class="mono" font-size="8.5" font-weight="700">SPECIALIZATION:</text>
+      <text x="0" y="16" class="alien-tech mono">Autonomous Agents</text>
+      <text x="0" y="32" class="alien-tech mono">RAG &amp; Vector DBs</text>
+      <text x="0" y="48" class="alien-tech mono">Document OCR</text>
+      <text x="0" y="64" class="alien-tech mono">LLM Workflows</text>
+    </g>
+
+    <!-- Status Pill -->
+    <rect x="12" y="186" width="136" height="18" rx="4" fill="#061c0e" stroke="#00FF66" stroke-width="0.8"/>
+    <text x="80" y="198" text-anchor="middle" fill="#39FF14" class="mono" font-size="8" font-weight="700">⚡ NEURAL CORES</text>
+  </g>
+
+  <!-- CARD 2: UPGRADE -->
+  <g transform="translate(196, 54)">
+    <rect x="0" y="0" width="160" height="216" class="card-border"/>
+    <rect x="0" y="0" width="160" height="3" fill="#00FF66" rx="2"/>
+
+    <text x="12" y="24" class="alien-sub mono">DNA SAMPLE #02</text>
+    <text x="12" y="44" class="alien-header sans">UPGRADE</text>
+    <text x="12" y="58" class="alien-desc mono">Galvanic Mechamorph</text>
+
+    <g transform="translate(12, 70)">
+      <text x="0" y="8" fill="#00FF66" class="mono" font-size="9" font-weight="700">TECHNOPATHY: 92%</text>
+      <rect x="0" y="14" width="136" height="5" rx="2.5" fill="#0b1a0f"/>
+      <rect x="0" y="14" width="125" height="5" rx="2.5" fill="url(#alien-bar)"/>
+    </g>
+
+    <g transform="translate(12, 110)">
+      <text x="0" y="0" fill="#528060" class="mono" font-size="8.5" font-weight="700">SPECIALIZATION:</text>
+      <text x="0" y="16" class="alien-tech mono">Python 3.12 Engine</text>
+      <text x="0" y="32" class="alien-tech mono">FastAPI Backend</text>
+      <text x="0" y="48" class="alien-tech mono">System Automation</text>
+      <text x="0" y="64" class="alien-tech mono">Webhooks &amp; APIs</text>
+    </g>
+
+    <rect x="12" y="186" width="136" height="18" rx="4" fill="#061c0e" stroke="#00FF66" stroke-width="0.8"/>
+    <text x="80" y="198" text-anchor="middle" fill="#00FF66" class="mono" font-size="8" font-weight="700">🔄 CODE MERGE</text>
+  </g>
+
+  <!-- CARD 3: XLR8 -->
+  <g transform="translate(368, 54)">
+    <rect x="0" y="0" width="160" height="216" class="card-border"/>
+    <rect x="0" y="0" width="160" height="3" fill="#39FF14" rx="2"/>
+
+    <text x="12" y="24" class="alien-sub mono">DNA SAMPLE #03</text>
+    <text x="12" y="44" class="alien-header sans">XLR8</text>
+    <text x="12" y="58" class="alien-desc mono">Kineceleran</text>
+
+    <g transform="translate(12, 70)">
+      <text x="0" y="8" fill="#39FF14" class="mono" font-size="9" font-weight="700">VELOCITY / I/O: 90%</text>
+      <rect x="0" y="14" width="136" height="5" rx="2.5" fill="#0b1a0f"/>
+      <rect x="0" y="14" width="122" height="5" rx="2.5" fill="url(#alien-bar)"/>
+    </g>
+
+    <g transform="translate(12, 110)">
+      <text x="0" y="0" fill="#528060" class="mono" font-size="8.5" font-weight="700">SPECIALIZATION:</text>
+      <text x="0" y="16" class="alien-tech mono">Async Concurrency</text>
+      <text x="0" y="32" class="alien-tech mono">Telegram Bot API</text>
+      <text x="0" y="48" class="alien-tech mono">Sub-50ms Responses</text>
+      <text x="0" y="64" class="alien-tech mono">Event Loop Mastery</text>
+    </g>
+
+    <rect x="12" y="186" width="136" height="18" rx="4" fill="#061c0e" stroke="#00FF66" stroke-width="0.8"/>
+    <text x="80" y="198" text-anchor="middle" fill="#39FF14" class="mono" font-size="8" font-weight="700">⚡ ULTRA VELOCITY</text>
+  </g>
+
+  <!-- CARD 4: DIAMONDHEAD -->
+  <g transform="translate(540, 54)">
+    <rect x="0" y="0" width="160" height="216" class="card-border"/>
+    <rect x="0" y="0" width="160" height="3" fill="#00FF66" rx="2"/>
+
+    <text x="12" y="24" class="alien-sub mono">DNA SAMPLE #04</text>
+    <text x="12" y="44" class="alien-header sans">DIAMONDHEAD</text>
+    <text x="12" y="58" class="alien-desc mono">Petrosapien</text>
+
+    <g transform="translate(12, 70)">
+      <text x="0" y="8" fill="#00FF66" class="mono" font-size="9" font-weight="700">RESILIENCE: 88%</text>
+      <rect x="0" y="14" width="136" height="5" rx="2.5" fill="#0b1a0f"/>
+      <rect x="0" y="14" width="118" height="5" rx="2.5" fill="url(#alien-bar)"/>
+    </g>
+
+    <g transform="translate(12, 110)">
+      <text x="0" y="0" fill="#528060" class="mono" font-size="8.5" font-weight="700">SPECIALIZATION:</text>
+      <text x="0" y="16" class="alien-tech mono">PostgreSQL Engine</text>
+      <text x="0" y="32" class="alien-tech mono">ACID Transactions</text>
+      <text x="0" y="48" class="alien-tech mono">Docker Containers</text>
+      <text x="0" y="64" class="alien-tech mono">Data Hardening</text>
+    </g>
+
+    <rect x="12" y="186" width="136" height="18" rx="4" fill="#061c0e" stroke="#00FF66" stroke-width="0.8"/>
+    <text x="80" y="198" text-anchor="middle" fill="#00FF66" class="mono" font-size="8" font-weight="700">🛡️ BULLETPROOF DB</text>
+  </g>
+
+  <!-- CARD 5: GREY MATTER -->
+  <g transform="translate(712, 54)">
+    <rect x="0" y="0" width="164" height="216" class="card-border"/>
+    <rect x="0" y="0" width="164" height="3" fill="#39FF14" rx="2"/>
+
+    <text x="12" y="24" class="alien-sub mono">DNA SAMPLE #05</text>
+    <text x="12" y="44" class="alien-header sans">GREY MATTER</text>
+    <text x="12" y="58" class="alien-desc mono">Galvan</text>
+
+    <g transform="translate(12, 70)">
+      <text x="0" y="8" fill="#39FF14" class="mono" font-size="9" font-weight="700">THEORY RIGOR: 76%</text>
+      <rect x="0" y="14" width="140" height="5" rx="2.5" fill="#0b1a0f"/>
+      <rect x="0" y="14" width="105" height="5" rx="2.5" fill="url(#alien-bar)"/>
+    </g>
+
+    <g transform="translate(12, 110)">
+      <text x="0" y="0" fill="#528060" class="mono" font-size="8.5" font-weight="700">SPECIALIZATION:</text>
+      <text x="0" y="16" class="alien-tech mono">GATE CSE 2028</text>
+      <text x="0" y="32" class="alien-tech mono">Data Structures &amp; Alg</text>
+      <text x="0" y="48" class="alien-tech mono">Computer Systems</text>
+      <text x="0" y="64" class="alien-tech mono">Compiler &amp; OS Logic</text>
+    </g>
+
+    <rect x="12" y="186" width="140" height="18" rx="4" fill="#061c0e" stroke="#39FF14" stroke-width="0.8"/>
+    <text x="82" y="198" text-anchor="middle" fill="#39FF14" class="mono" font-size="8" font-weight="700">🧠 GALVAN BRAIN</text>
+  </g>
+</svg>
